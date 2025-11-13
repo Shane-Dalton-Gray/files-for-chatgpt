@@ -1,0 +1,2 @@
+select * from tblprojects 
+where ProjectNumber = {{projectTableDetailsTable.selectedRow.data.ProjectNumber}} and loadnumbers = {{projectTableDetailsTable.selectedRow.data.LoadNumbers}} and ID = {{projectTableDetailsTable.selectedRow.data.ID}}

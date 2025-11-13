@@ -1,0 +1,1 @@
+CALL sp_Store_Load_Pricing({{loadNumberSelect.value}}, {{ Number(projectInput.value) }}, {{ Number(ttlPurchasePriceNumberInput.value) }}, {{ ttlSellPriceNumberInput.value }}, {{ differenceNumberInput.value }});

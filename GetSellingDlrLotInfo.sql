@@ -1,0 +1,1 @@
+call sp_sellingDlrPickupLotInfoGet({{loadNumberSelect.value}});

@@ -1,0 +1,2 @@
+insert into tblprojectpayables (projectnumber,dtnnumber,account,amount,invoicenumber,solddate)
+values ({{projectInput.value}},(select dtnnumber from tblprojects where projectnumber = {{projectInput.value}} and loadnumbers = {{loadNumberSelect.value}} group by dtnnumber),IF({{landUnderNumberInput.value}}<0,"Receivable","Payable"),IF({{landUnderNumberInput.value}}<0,{{landUnderNumberInput.value}}*-1,{{landUnderNumberInput.value}}),{{loadNumberSelect.value}},(select solddate from soldloads where projectnumber = {{projectInput.value}} group by solddate));

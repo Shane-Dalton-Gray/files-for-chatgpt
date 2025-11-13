@@ -1,0 +1,8 @@
+.footnote {
+  text-align: left;
+  font-weight: bold;
+  color: #266753;
+  border: 1px dashed #266753;
+  display: flex;
+  flex-direction: column;     
+}

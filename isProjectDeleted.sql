@@ -1,0 +1,1 @@
+select isRemoved from savedprojectinfo where ProjectNumber = {{projectInput.value}};

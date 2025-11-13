@@ -1,0 +1,1 @@
+delete from tblprojectpayables where ID = {{ModifyPayableReceivables.data.ID}} and ProjectNumber = {{ModifyPayableReceivables.data.ProjectNumber}} and AmtPaid = 0
