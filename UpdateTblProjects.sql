@@ -1,0 +1,3 @@
+UPDATE tblprojects
+SET projectnumber = {{table28.recordUpdates['0'].ProjectNumber}},dtnnumber = {{table28.recordUpdates['0'].DTNNumber}},loadnumbers = {{table28.recordUpdates['0'].LoadNumbers}} ,unitnumbers = {{table28.recordUpdates['0'].UnitNumbers}},rep = {{table28.recordUpdates['0'].Rep}},freightused = {{table28.recordUpdates['0'].FreightUsed}},landedunder = {{table28.recordUpdates['0'].LandedUnder}},freightpad = {{table28.recordUpdates['0'].FreightPad}},fee = {{table28.recordUpdates['0'].Fee}},`agreement type` = {{table28.recordUpdates['0']['Agreement Type']}}
+WHERE ID = {{table28.data.ID}};
